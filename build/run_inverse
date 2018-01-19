@@ -1,0 +1,7 @@
+#!/bin/bash
+#./adaptive_timestepping -m fitz -s heun -f adapt
+#./adaptive_timestepping -m fitz -s heun -f adapt
+#./adaptive_timestepping -m po -s rock2 -f a_adapt
+#./adaptive_timestepping -m fitz -s heun -f a_adapt
+#./adaptive_timestepping -m fitz -s heun -f giacomo2
+./inverse -m test -s heun -f fixed

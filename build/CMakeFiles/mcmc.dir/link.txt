@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmcmc.a  CMakeFiles/mcmc.dir/mcmc/mala.cpp.o CMakeFiles/mcmc.dir/mcmc/pcn.cpp.o CMakeFiles/mcmc.dir/mcmc/phmc.cpp.o
+/usr/bin/ranlib libmcmc.a

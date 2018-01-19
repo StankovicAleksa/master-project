@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/pf_smc_main.dir/pf_smc_main.cpp.o  -o pf_smc_main -lboost_filesystem -lboost_system libsmc.a libmcmc.a libmethods.a libmodels.a libtools.a 

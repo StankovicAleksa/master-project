@@ -1,0 +1,14 @@
+#!/bin/bash
+#./adaptive_timestepping -m fitz -s heun -f adapt
+#./adaptive_timestepping -m fitz -s heun -f adapt
+#./adaptive_timestepping -m po -s rock2 -f a_adapt
+#./adaptive_timestepping -m fitz -s heun -f a_adapt
+#./adaptive_timestepping -m fitz -s heun -f giacomo2
+#./adaptive_timestepping -m lorenz -s heun -f a_adapt
+#./adaptive_timestepping -m lorenz -s rock2 -f a_adapt
+#./adaptive_timestepping -m lorenz -s heun -f fixed
+#./adaptive_timestepping -m fitz -s heun -f agm
+#./adaptive_timestepping -m fitz -s heun -f agm
+#./adaptive_timestepping -m fitz -s heun -f adapt
+./adaptive_timestepping -m fitz -s heun -f a_adapt
+#./adaptive_timestepping -m test -s ee -f agm

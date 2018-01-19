@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AleksaMasterThesis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smc_main">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/smc_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 smc_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smc_main/fast">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/smc_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 smc_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tools">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/libtools.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 tools"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tools/fast">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/libtools.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 tools/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="models">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/libmodels.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 models"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="models/fast">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/libmodels.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 models/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="phmc">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/phmc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 phmc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="phmc/fast">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/phmc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 phmc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mcmc">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/libmcmc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 mcmc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mcmc/fast">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/libmcmc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 mcmc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smc">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/libsmc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 smc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smc/fast">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/libsmc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 smc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="adaptive_timestepping">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/adaptive_timestepping" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 adaptive_timestepping"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="adaptive_timestepping/fast">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/adaptive_timestepping" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 adaptive_timestepping/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mcmc_main">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/mcmc_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 mcmc_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mcmc_main/fast">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/mcmc_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 mcmc_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcn">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/pcn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 pcn"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcn/fast">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/pcn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 pcn/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="methods">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/libmethods.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 methods"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="methods/fast">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/libmethods.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 methods/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pf_smc_main">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/pf_smc_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 pf_smc_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pf_smc_main/fast">
+				<Option output="/home/aleksa/Dropbox/master/code/cmake-build-debug/pf_smc_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksa/Dropbox/master/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 pf_smc_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aleksa/Dropbox/master/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aleksa/Dropbox/master/code/adaptive_timestepping.cpp">
+			<Option target="adaptive_timestepping"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/mcmc/mala.cpp">
+			<Option target="mcmc"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/mcmc/mala.hpp">
+			<Option target="mcmc"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/mcmc/pcn.cpp">
+			<Option target="mcmc"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/mcmc/pcn.hpp">
+			<Option target="mcmc"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/mcmc/phmc.cpp">
+			<Option target="mcmc"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/mcmc/phmc.hpp">
+			<Option target="mcmc"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/mcmc_main.cpp">
+			<Option target="mcmc_main"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/methods/adaptive_methods.cpp">
+			<Option target="methods"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/methods/adaptive_methods.hpp">
+			<Option target="methods"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/methods/core_methods.cpp">
+			<Option target="methods"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/methods/core_methods.hpp">
+			<Option target="methods"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/methods/giacomo.cpp">
+			<Option target="methods"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/methods/giacomo.hpp">
+			<Option target="methods"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/methods/methods.cpp">
+			<Option target="methods"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/methods/methods.hpp">
+			<Option target="methods"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/methods/rock2_static_coefficients.cpp">
+			<Option target="methods"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/methods/stabilized_methods.cpp">
+			<Option target="methods"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/methods/stabilized_methods.hpp">
+			<Option target="methods"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/models/inverse_model.cpp">
+			<Option target="models"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/models/inverse_model.hpp">
+			<Option target="models"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/models/models.cpp">
+			<Option target="models"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/models/models.hpp">
+			<Option target="models"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/pcn.cpp">
+			<Option target="pcn"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/pf_smc_main.cpp">
+			<Option target="pf_smc_main"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/phmc.cpp">
+			<Option target="phmc"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/smc/pf_smc.cpp">
+			<Option target="smc"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/smc/smc.cpp">
+			<Option target="smc"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/smc/smc.hpp">
+			<Option target="smc"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/smc/stuart_smc.cpp">
+			<Option target="smc"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/smc_main.cpp">
+			<Option target="smc_main"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/tools/eigenvalue.cpp">
+			<Option target="tools"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/tools/eigenvalue.hpp">
+			<Option target="tools"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/tools/init.cpp">
+			<Option target="tools"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/tools/init.hpp">
+			<Option target="tools"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/tools/mcmc.cpp">
+			<Option target="tools"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/tools/mcmc.hpp">
+			<Option target="tools"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/tools/random_variable.cpp">
+			<Option target="tools"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/tools/random_variable.hpp">
+			<Option target="tools"/>
+		</Unit>
+		<Unit filename="/home/aleksa/Dropbox/master/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

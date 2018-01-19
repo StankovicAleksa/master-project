@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsmc.a  CMakeFiles/smc.dir/smc/pf_smc.cpp.o CMakeFiles/smc.dir/smc/smc.cpp.o CMakeFiles/smc.dir/smc/stuart_smc.cpp.o CMakeFiles/smc.dir/smc/stuart_smc_backup.cpp.o
+/usr/bin/ranlib libsmc.a

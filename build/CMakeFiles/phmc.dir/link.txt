@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/phmc.dir/phmc.cpp.o  -o phmc -lboost_filesystem -lboost_system libsmc.a libmcmc.a libmethods.a libmodels.a libtools.a 

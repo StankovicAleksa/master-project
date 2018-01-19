@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/inverse.dir/inverse_finite.cpp.o  -o inverse -lboost_filesystem -lboost_system libsmc.a libmcmc.a libmethods.a libmodels.a libtools.a 

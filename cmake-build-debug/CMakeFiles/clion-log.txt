@@ -1,0 +1,23 @@
+/home/aleksa/opt/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/aleksa/Dropbox/master/code
+-- The C compiler identification is GNU 7.2.0
+-- The CXX compiler identification is GNU 7.2.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Boost version: 1.62.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+-- Build type: Debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aleksa/Dropbox/master/code/cmake-build-debug

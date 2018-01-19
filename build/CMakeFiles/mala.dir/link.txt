@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/mala.dir/mala.cpp.o  -o mala -lboost_filesystem -lboost_system libsmc.a libmcmc.a libmethods.a libmodels.a libtools.a 

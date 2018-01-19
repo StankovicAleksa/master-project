@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmethods.a  CMakeFiles/methods.dir/methods/adaptive_methods.cpp.o CMakeFiles/methods.dir/methods/core_methods.cpp.o CMakeFiles/methods.dir/methods/giacomo.cpp.o CMakeFiles/methods.dir/methods/methods.cpp.o CMakeFiles/methods.dir/methods/rock2_static_coefficients.cpp.o CMakeFiles/methods.dir/methods/stabilized_methods.cpp.o
+/usr/bin/ranlib libmethods.a
